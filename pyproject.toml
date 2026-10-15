@@ -1,0 +1,14 @@
+[project]
+name = "so101"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "lerobot[core-scripts,feetech,smolvla]>=0.6.1",
+    "torch>=2.10",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+]
